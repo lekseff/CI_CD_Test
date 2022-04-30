@@ -1,5 +1,4 @@
 test('Test', () => {
   const a = 5;
-  const b = 5;
-  expect(a).toBe(b);
+  expect(a).toBe(8);
 });
