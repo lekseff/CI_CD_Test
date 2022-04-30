@@ -1,5 +1,5 @@
 ![example workflow](https://github.com/lekseff/CI_CD_Test/actions/workflows/test.yml/badge.svg)
-![example workflow](https://github.com/lekseff/CI_CD_Test/actions/workflows/deploy.yml/badge.svg)
+  ![example workflow](https://github.com/lekseff/CI_CD_Test/actions/workflows/deploy.yml/badge.svg)
 
 Правила сдачи задания:
 
