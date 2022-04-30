@@ -16,7 +16,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	background-image: url(../img/goblin.png);
+	/* background-image: url(../img/goblin.png); */
 	/* box-shadow: inset 0px 0px 20px 3px rgb(235 0 0 / 78%); */
 }
 
