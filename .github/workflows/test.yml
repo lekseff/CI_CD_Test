@@ -28,7 +28,8 @@ jobs:
         # with:
         #   github_token: ${{ secrets.TOKEN }}
         #   publish_dir: ./dist
-      - name: Deploy 🚀
+      - name: Deploy
+      GITHUB_TOKEN: ${{ secrets.TOKEN }}
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages # The branch the action should deploy to.
