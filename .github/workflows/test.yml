@@ -20,6 +20,3 @@ jobs:
       - run: yarn lint
       - run: yarn test
       - run: yarn build
-      - run: git subtree push --prefix dist origin gh-pages
-      # env:
-      #     GITHUB_TOKEN: ${{ ${{ secrets.deploy }} }}
