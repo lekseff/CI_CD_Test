@@ -23,14 +23,14 @@ jobs:
       # - run: yarn deploy
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      # - name: Deploy
-        # uses: peaceiris/actions-gh-pages@v3
-        # with:
-        #   github_token: ${{ secrets.TOKEN }}
-        #   publish_dir: ./dist
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.TOKEN }}
-          branch: gh-pages # The branch the action should deploy to.
-          folder: dist # The folder the action should deploy.
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./dist
+      # - name: Deploy
+      #   uses: JamesIves/github-pages-deploy-action@v4.3.3
+      #   with:
+      #     token: ${{ secrets.TOKEN }}
+      #     branch: gh-pages # The branch the action should deploy to.
+      #     folder: dist # The folder the action should deploy.
