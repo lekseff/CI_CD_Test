@@ -20,3 +20,6 @@ jobs:
       - run: yarn lint
       - run: yarn test
       - run: yarn build
+      - run: yarn deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
