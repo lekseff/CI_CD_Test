@@ -22,4 +22,4 @@ jobs:
       - run: yarn build
       - run: npx push-dir --dir=dist --branch=gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
